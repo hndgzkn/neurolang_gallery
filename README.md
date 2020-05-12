@@ -22,6 +22,10 @@ curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master
 5. The install process might take between 5 and 10 minutes to complete.
 6. Dependending on the method and cloud provider chosen in Step 1, you will get the public IP of the server, which can be used to access the gallery
 
+## Looking at the builder service logs
+
+On the server, run `sudo journalctl -u tljh-voila-gallery-builder.service`
+
 ## Going back to the gallery screen
 
 You can go back to the gallery landing page using the back button of the web browser.
