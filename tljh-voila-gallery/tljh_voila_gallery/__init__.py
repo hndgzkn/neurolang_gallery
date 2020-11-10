@@ -13,6 +13,7 @@ from .install_builder_units import ensure_builder_units
 
 yaml = YAML()
 
+
 class GallerySpawner(DockerSpawner):
     cmd = 'jupyter-notebook'
 
@@ -33,6 +34,7 @@ class GallerySpawner(DockerSpawner):
             '--MappingKernelManager.cull_idle_timeout=600',
             '--MappingKernelManager.cull_interval=60',
             '--MappingKernelManager.cull_connected=True',
+            '--VoilaConfiguration.enable_nbextensions=True',
         ]
         return args + self.args
 
