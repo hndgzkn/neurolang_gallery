@@ -2,7 +2,15 @@ examples:
   neurolang:
     title: Neurolang
     description: Run queries using the Neurolang library and explore results.
-    url: voila/render/simple_voila_ui.py
+    url: voila/render/simple_voila_ui.ipynb
+    repo_url: https://github.com/hndgzkn/simple_voila_ui #https://github.com/NeuroLang/neurolang_web
+    ref: main
+    image_url: https://avatars2.githubusercontent.com/u/35116292?s=200&v=4
+
+  neurolang2:
+    title: Neurolang
+    description: Run queries using the Neurolang library and explore results.
+    url: voila/render/notebooks/simple_voila_ui2.ipynb
     repo_url: https://github.com/hndgzkn/simple_voila_ui #https://github.com/NeuroLang/neurolang_web
     ref: main
     image_url: https://avatars2.githubusercontent.com/u/35116292?s=200&v=4
