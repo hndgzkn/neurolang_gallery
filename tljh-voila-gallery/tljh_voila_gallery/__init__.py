@@ -35,6 +35,7 @@ class GallerySpawner(DockerSpawner):
             '--MappingKernelManager.cull_interval=60',
             '--MappingKernelManager.cull_connected=True',
             '--VoilaConfiguration.enable_nbextensions=True',
+            '--VoilaConfiguration.extension_language_mapping={".py": "python"}'
         ]
         return args + self.args
 
