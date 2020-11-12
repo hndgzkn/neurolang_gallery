@@ -13,3 +13,10 @@ examples:
     repo_url: https://github.com/NeuroLang/neurolang_web
     ref: master
     image_url: https://avatars2.githubusercontent.com/u/35116292?s=200&v=4
+  third:
+    title: Third
+    description: Run queries using Neurolang library with neurosynth dataset and explore results.
+    url: voila/render/notebooks/new_ns_example.py
+    repo_url: https://github.com/NeuroLang/neurolang_web
+    ref: master
+    image_url: https://avatars2.githubusercontent.com/u/35116292?s=200&v=4
