@@ -10,6 +10,7 @@ from dockerspawner import DockerSpawner
 from nullauthenticator import NullAuthenticator
 
 from .install_builder_units import ensure_builder_units
+from distutils import log
 
 yaml = YAML()
 
@@ -35,7 +36,8 @@ class GallerySpawner(DockerSpawner):
             '--MappingKernelManager.cull_interval=60',
             '--MappingKernelManager.cull_connected=True',
             '--VoilaConfiguration.enable_nbextensions=True',
-            '--VoilaConfiguration.extension_language_mapping={".py": "python"}'
+            '--VoilaConfiguration.extension_language_mapping={".py": "python"}',
+            '--VoilaConfiguration.log_level=log.DEBUG'
         ]
         return args + self.args
 
